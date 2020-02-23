@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    
 
     <section class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,7 +20,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -95,19 +96,19 @@
     <section class="container categories">
         <div class="row">
             <div class="col-md-4">
-                <div class="cat1">
+                <div class="d-flex justify-content-between align-items-center cat1">
                     <h1>Watch</h1>
                     <img src="images/categories/watch.png" alt="">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="cat2">
+                <div class="d-flex justify-content-between align-items-center cat2">
                     <h1>Bag</h1>
                     <img src="images/categories/bag.png" alt="">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="cat3">
+                <div class="d-flex justify-content-between align-items-center cat3">
                     <h1>Shoes</h1>
                     <img src="images/categories/shoes.png" alt="">
                 </div>
@@ -119,6 +120,109 @@
 
 
 
+    <section class="container shoes" id="shoes">
+        <h3>Shoes</h3>
+        <div class="card-deck ">
+            <div class="card">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <h6>$120</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike 320</h5>
+                    <h6>$320</h6>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red Airmax</h5>
+                    <h6>$350</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                    
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container backpack" id="backpack">
+        
+        <div class="d-flex align-items-center justify-content-between">
+            <h3>Backpack</h3>
+            <a href="#">See All</a>
+        </div>
+        <div class="card-deck ">
+            <div class="card">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <h6>$120</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike 320</h5>
+                    <h6>$320</h6>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red Airmax</h5>
+                    <h6>$169</h6>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-now-btn">Buy Now >></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container d-flex justify-content-center align-items-center orange-bg" id="subscribe">
+        <div>
+            <h3>LET'S STAY IN TOUCH</h3>
+            <h6>Get updates on sales, specials add more</h6>
+            <input class="form-control" type="text">
+            <br>
+            <button class="buy-now-btn">SUBMIT</button>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>Copyright 2020 Panda Commerce. All rights reserved</p>
+    </footer>
 
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
